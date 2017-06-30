@@ -2,7 +2,7 @@
 body {
 	background-color: black;
 }
-div#board{
+div#board {
 	position:relative;
 	width: 1024px;
 	height: 863px;
@@ -10,37 +10,37 @@ div#board{
 	background: url("board.jpg") no-repeat;
 	
 }
-div#messagearea{
+div#messageArea {
 	position:absolute;
 	top:0px;
 	left:0px;
-	color:green;
+	color: rgb(83, 175, 19);
 }
-table{
+table {
 	position:absolute;
 	left:173px;
 	top:98px;
 	border-spacing:0px;
 }
-td{
+td {
 	width:94px;
 	height:94px;
 }
-form{
+form {
 	position:absolute;
 	bottom:0px;
 	right:0px;
 	padding:15px;
 	background-color:rgb(83,175,19);
 }
-form input{
+form input {
 	background-color:rgb(152,207,113);
 	border-color:rgb(83,175,19);
 	font-size:1em;
 }
-.hit{
+.hit {
 	background:url("ship.png") no-repeat center center;
 }
-.miss{
+.miss {
 	background:url("miss.png") no-repeat center center;
 }
